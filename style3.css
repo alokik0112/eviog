@@ -47,7 +47,7 @@ a:hover {
   color: #000;
 }
 
-/slideshow/
+/*slideshow*/
 * {box-sizing:border-box}
 .home{
   font-family: "Quicksand", sans-serif;
@@ -71,7 +71,7 @@ a:hover {
 
 
 
-/about/
+/*about*/
 @import url('https://fonts.googleapis.com/css?family=Exo+2:700');
 * {
   margin: 0 auto;
@@ -232,7 +232,7 @@ a:hover {
   bottom: 325px;
 }
 
-/news/
+/*news*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700');
 /* * {
   margin: 0;
@@ -286,20 +286,20 @@ a:hover {
   /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); */
 
 
-.posts_item--main .posts_image {
+.posts__item--main .posts__image {
   display: flex;
   flex-grow: 1;
   width:50%;
   height:50%;
 }
-.posts_item--main .posts_information {
+.posts__item--main .posts__information {
   position: absolute;
   bottom: 35px;
   left: 50px;
   padding: 0 25px 0 0;
   z-index: 1;
 }
-.posts_item--main .posts_title a {
+.posts__item--main .posts__title a {
   font-size: 26px;
   line-height: 36px;
   letter-spacing: 0.75px;
@@ -353,7 +353,7 @@ a:hover {
     font-size: 16px;
     line-height: 24px;
   }
-  .posts_item--main .posts_information .post-title a {
+  .posts__item--main .posts__information .post-title a {
     font-size: 20px;
     line-height: 26px;
   }
@@ -366,10 +366,10 @@ a:hover {
     flex-basis: 100%;
     justify-content: center;
   }
-  .posts_item--main .posts_image {
+  .posts__item--main .posts__image {
     display: block;
   }
-  .posts_item--main .posts_information {
+  .posts__item--main .posts__information {
     width: 100%;
     bottom: auto;
     left: auto;
@@ -384,7 +384,7 @@ a:hover {
   }
 }
 
-/footer/
+/*footer*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 /* * {
@@ -573,3 +573,4 @@ a:hover {
 	}
 
 }
+
