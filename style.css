@@ -1,1 +1,575 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 
+/* Navbar section */
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: #d4d7de; */
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+.nav {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
+}
+.logo {
+  flex: 1 1 auto;
+  margin-left: 10%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 35px;
+}
+img {
+  width: 20%;
+}
+a {
+  margin: 15px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  color: #000;
+}
+
+/slideshow/
+* {box-sizing:border-box}
+.home{
+  font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  /* position: relative; */
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+
+
+
+/about/
+@import url('https://fonts.googleapis.com/css?family=Exo+2:700');
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.about {
+    position: relative;
+    
+    padding-top:100px;
+  background: url("https://internationaleventday.com/wp-content/uploads/2021/06/World-Environment-Day-and-COVID-19.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.about h1 {
+  color: whitesmoke;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 46px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.about p {
+  max-width: 700px;
+  min-height: 200px;
+  padding: 0;
+  color: whitesmoke;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+/* edit*/
+.ev2{
+  height: 300px;
+}
+.ev2a{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ev2a{
+  position: relative;
+  margin-left: 20px;
+  border-left-width: 10px;
+  margin-right: 0px;
+}
+
+.ev2b {
+  position: relative;
+  left: 400px;
+  bottom: 300px;
+  right: 0px;
+  width: 300px;
+}
+.ev2c{
+  position: relative;
+  width: 300px;
+  height: 274px;
+  bottom: 590px;
+  left: 770px;
+}
+.ev2c img{
+  width: 300px;
+  height: 249px;
+}
+.ev2d{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 1150px;
+  top: auto;
+  bottom: 865px;
+}
+.ev2d img{
+  width: 300px;
+  height: 250px;
+}
+.ev2a img,.ev2b img,.ev2c img,.ev2d img{
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+.ev2a:hover img,.ev2b:hover img,.ev2c:hover img,.ev2d:hover img{
+  transform: scale(1.2);
+}
+.ev2a-text, .ev2b-text,.ev2c-text,.ev2d-text{
+  position: relative;
+  margin-top: 0px;
+  bottom: 40px;
+  margin-left: 15px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* .ev2aa-text {
+  position: relative; 
+  max-width: 500px;   
+}
+ */
+/* (B) RESPONSIVE IMAGE */
+/* .hoverwrap img { width: 100%; } */
+
+/* (C) CAPTION */
+/* .ev2aa-text { */
+  /* (C1) DIMENSIONS */
+  /* box-sizing: border-box;
+  width: 100%;
+  padding: 10px; */
+ 
+  /* (C2) PLACE AT BOTTOM */
+  /* position: absolute;
+  bottom: 0; left: 0; */
+ 
+  /* (C3) COLORS */
+  /* background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+} */
+
+/* (D) SHOW/HIDE */
+/* .ev2aa-text { */
+  /* visibility: none; */
+   /* opacity: 0;
+  transition: opacity 0.3s;
+}
+.ev2aa-text:hover .ev2aa-text{
+  visibility: visible;
+   opacity: 1;
+} */
+
+.video{
+  background-image: url("https://ceres.org/themes/ceres/assets/images/mission/mission-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  padding: 40px 0 120px;
+  height: 400px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #edeceb;
+}
+.video-b{
+  /* background-image: url("https://i.pinimg.com/originals/39/67/2c/39672c78bfa58d37b30962d2c6ddbb7f.jpg"); */
+  background-color:white;
+  position: relative;
+  left: 900px;
+  width: 450px;
+  height: 350px;
+  bottom: 325px;
+}
+
+/news/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700');
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.container-news {
+    font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: #2E765E;
+
+  min-width: 320px;
+  padding: 0;
+  
+  
+}
+
+.container-news h1 {
+    color: whitesmoke;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+  }
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.posts__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 32%;
+  background-color: #fff;
+  margin-bottom: 22px;
+  /* position: relative; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.posts__item--main {
+  flex-basis: 66%;
+  /* height:400px; */
+}
+/* .posts__item--main:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; */
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); */
+
+
+.posts_item--main .posts_image {
+  display: flex;
+  flex-grow: 1;
+  width:50%;
+  height:50%;
+}
+.posts_item--main .posts_information {
+  position: absolute;
+  bottom: 35px;
+  left: 50px;
+  padding: 0 25px 0 0;
+  z-index: 1;
+}
+.posts_item--main .posts_title a {
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.75px;
+  color: black;
+}
+.posts__image > img {
+  display: block;
+  width: 100%;
+}
+.posts__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 25px;
+  flex-grow: 1;
+}
+.posts__date {
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.325px;
+  color: #818181;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 7px 0;
+}
+.posts__title {
+  margin-top: 7px;
+  margin-bottom: auto;
+}
+.posts__title a {
+  font-size: 22px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+}
+.posts__title a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  .posts__information {
+    padding: 10px 15px 15px 15px;
+  }
+  .posts__date {
+    font-size: 12px;
+  }
+  .posts__title a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .posts_item--main .posts_information .post-title a {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .posts__item {
+    flex-basis: 49%;
+  }
+  .posts__item--main {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  .posts_item--main .posts_image {
+    display: block;
+  }
+  .posts_item--main .posts_information {
+    width: 100%;
+    bottom: auto;
+    left: auto;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .posts__item {
+    flex-basis: 100%;
+  }
+}
+
+/footer/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+/* * {
+  font-family: Open Sans;
+} */
+
+
+.footer-distributed{
+	background: #2E765E;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
