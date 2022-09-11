@@ -26,6 +26,9 @@ body {
   list-style: none;
   margin-right: 15%;
 }
+.nav a{
+  color:#edeceb;
+}
 .logo {
   flex: 1 1 auto;
   margin-left: 10%;
